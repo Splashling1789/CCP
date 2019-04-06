@@ -6,9 +6,9 @@ Para CCP alpha 0.5:
 ✅ Registro
 
 Para CCP 0.5:
-❌ Correciones de escritura
-❌ Menciones de github dentro del dialogo
-❌ Solucionar algún error menor
+✅ Correciones de escritura
+✅ Menciones de github dentro del dialogo
+✅ Solucionar algún error menor
 
 Para CCP 0.6:
 ❌ Cambiar la forma en decir la fecha, diciendo el nombre del mes en el que se está
