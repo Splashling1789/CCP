@@ -27,4 +27,4 @@ Preguntas y respuestas:
 
 ¿Vas a traducirlo a otros idiomas?
   Tengo pensado en traducirlo al inglés, y no con el traductor de Google obviamente. Traducir las lineas de texto que tiene CCP no debe ser
-  tan complicado, así que lanzaré unas versiónes en inglés proximamente
+  tan complicado, así que lanzaré unas versiónes en inglés proximamente.
