@@ -1,4 +1,4 @@
-"""CCP ver. alpha 0.5 # Programa de conversación y utilidades varias"""
+"""CCP ver. alpha 0.5 # Programa de conversación"""
 
 #Importamos librerias
 import time
