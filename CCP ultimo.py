@@ -1,4 +1,4 @@
-"""CCP ver. alpha 0.5 # Programa de conversación"""
+"""CCP ver. 0.5 # Programa de conversación"""
 
 #Importamos librerias
 import time
@@ -6,7 +6,7 @@ from datetime import datetime
 import random
 import math
 #Definimos las variables importantes
-version = "alpha 0.5"
+version = "0.5"
 nombre = "usuario"
 nacimiento_día = 0
 nacimiento_mes = 0
@@ -20,13 +20,13 @@ def el_prin():
     print ("\n1. Información")
     print ("2. Calculadora")
     print ("3. Conversación")
-    elec_prin = input("¿Que podría hacer por ti? Escribe el número correspondiente ")
+    elec_prin = input("¿Que podría hacer por ti? Escribe el número correspondiente: ")
     if elec_prin == ("1"):
-        print ("Soy una simple consola para conversar algo mediocre y pequeña comparado con otras como Siri, Cortana o el")
+        print ("\nSoy una simple consola para conversar algo mediocre y pequeña comparado con otras como Siri, Cortana o el")
         print ("nuevo asistente de Google. Fui creada por Javier Albero Ros, niño de 12 años aspirante a la programación")
-        print ("y comencé a ser desarollada el día 11 de agosto de 2018. No hace mucho sabiendo que hoy es " + '%02d del %02d del %04d' % (fecha.day, fecha.month, fecha.year))
-        time.sleep(6) 
-        input ("Presiona enter para continuar...")
+        print ("y comencé a ser desarollada el día 11 de agosto de 2018. Hace mucho, sabiendo que hoy es " + '%02d del %02d del %04d' % (fecha.day, fecha.month, fecha.year))
+        print ("Aparte, fue terminada mi primera versión el día 6 de abril de 2019, además de haber sido publicada en \ngithub ese mismo día, que por si no lo sabes, puedes ver mis actualizaciones y mas información\n en https://github.com/Splashling1789/CCP/")
+        input ("\nPresiona enter para continuar...")
         el_prin()
     if elec_prin == ("2"):
         calculadora()
@@ -38,35 +38,35 @@ def el_prin():
         conversación()
     else:
          print ("Debes seleccionar un número dependiendo de lo que quieras")
-         time.sleep(2)
+         time.sleep(1)
          el_prin()
 
 #Programa de conversación
 def conversación():
     print ("\n#. Volver al menú principal")
-    print ("1. Hola que tal?")
-    print ("2. Con que estas programada?")
-    print ("3. Que hora es?")
-    print ("4. Que compañía lo hace mejor?")
-    print ("5. Cuando serás mejorada?")
-    print ("6. Le tienes rencor a las IAs mas modernas?")
-    print ("7. Cuales son los números de la lotería para el sábado?")
-    print ("8. Podré tenerte en mi móvil?")
-    print ("9. Cual es tu idioma favorito?")
+    print ("1. Hola ¿qué tal?")
+    print ("2. ¿Con qué estas programada?")
+    print ("3. ¿Qué hora es?")
+    print ("4. ¿Qué compañía lo hace mejor?")
+    print ("5. ¿Cuando serás mejorada?")
+    print ("6. ¿Le tienes rencor a las IAs mas modernas?")
+    print ("7. ¿Cuales son los números de la lotería para el sábado?")
+    print ("8. ¿Podré tenerte en mi móvil?")
+    print ("9. ¿Cual es tu idioma favorito?")
     print ("*. Seleccionar página")
     print (">. Siguiente página")
     el_conv = input("\nSelecciona una opción: ")
     if el_conv == ("#"):
         el_prin()
     if el_conv == ("1"):
-        input ("Hola! Yo muy bien, por aqui, ejecutando mi script en este ordenador. Que tal tu " + nombre + "?")
-        print ("Ya veo (tengo que intentar que no se de cuenta de que no se que decir porque no \nestoy programada para esto) Por que no me preguntas otra cosa?\n")
+        input ("Hola! Yo muy bien, por aqui, ejecutando mi script en este ordenador. Que tal tú " + nombre + "?")
+        print ("Ya veo (tengo que intentar que no se de cuenta de que no se que decir porque no \nestoy programada para esto) ¿Por qué no me preguntas otra cosa?\n")
         time.sleep(5)
         conversación()
     if el_conv == ("2"):
         print ("Estoy programada con Python 3.7, el lenguaje de programación mas utilizado. En mis inicios \nfui desarrollada dentro de un Raspberry Pi 3 modelo B+, pero como a mi dueño se le hacia \nincomodo montar el aparato cada vez que queria ponerse a programar, asi que empezo a \nprogramarlo en su portátil con Visual Studio Code, con extensiones de python el día \n16/08/2018. Pero mi script siempre se ejecutaría en el Raspberry\n")
         print ("#. Volver al menú de conversación")
-        print ("1. Por que tu dueño se compró el raspberry?")
+        print ("1. ¿Por qué tu dueño se compró el raspberry?")
         el_conv2_1 = input ("")
         if el_conv2_1 == ("#"):
             conversación()
@@ -75,10 +75,10 @@ def conversación():
             print ("casa, y Javi descubrió el Raspberry Pi 3. Al explicarle su amigo que podía hacer esa máquina")
             print ("se fascinó completamente, y quiso comprarla. Mas tarde, al oir su tía de Palma lo que quería")
             print ("su sobrino, no dudó en regalarle la placa. Javier se adentro en el mundo de la programación")
-            print ("mucho mas de lo que lo había hecho antes, probó Raspbian, un SO basado en Linux, y a raiz de")
+            print ("mucho mas de lo que lo había hecho antes, probó Raspbian, un S.O. basado en Linux, y a raiz de")
             print ("empezó a aprender python, y a raíz de ahi, me creó. Javier siempre estará en deuda con su tía")
             time.sleep(8)
-            print ("\n1. Por que me cuentas este rollo?")
+            print ("\n1. ¿Por qué me cuentas este rollo?")
             print ("2. Vaya, veo que era un gran hobby suyo")
             el_conv2_2 = input ("")
         if el_conv2_2 == ("1"):
@@ -118,7 +118,7 @@ def conversación():
         print ("El mismo que mi dueño, el inglés, de hecho, Javi se esta planteando hacerme una versión en inglés")
         time.sleep(2)
         print ("\n1. Que sentido tiene eso? Si está en su idioma por que pasarlo a otro?")
-        print ("2. Por que es ese su idioma preferido?")
+        print ("2. ¿Por qué al inglés?")
         print ("# Volver al menú de conversación")
         el_conv9_1 = input ("\n")
         if el_conv9_1 == ("1"):
@@ -130,7 +130,7 @@ def conversación():
             time.sleep(3)
             conversación()
         if el_conv9_1 == ("#"):
-            conversación()
+            el_prin()
     if el_conv == ("*"):
         selec_pag()
     if el_conv == (">"):
@@ -139,16 +139,16 @@ def conversación():
         el_conv_vacío = input ("Verás, tienes que escribir el número que corresponde a cada pregunta. Comprendes? (s/n)")
         if el_conv_vacío == ("s"):
             print ("Bien pues, vuelve a intentarlo")
-            time.sleep(2)
+            time.sleep(1)
             conversación()
         if el_conv_vacío == ("n"):
             print ("A ver... si me quieres preguntar la pregunta 1 (Hola que tal?), tiene que introducir un 1 y pulsar enter. Pruebalo ahora")
-            time.sleep(3)
+            time.sleep(4)
             conversación()
         else:
             print ("...")
             time.sleep(3)
-            print ("Ni siquiera sabes que cuando en una frase escribo (s/n) significa que tienes que poner s (si) o n (no)?")
+            print ("¿Ni siquiera sabes que cuando en una frase escribo (s/n) significa que tienes que poner s (si) o n (no)?")
             time.sleep(3)
             print ("En fin...")
             conversación()
@@ -158,16 +158,36 @@ def conversación_2():
     print ("\n#. Volver al menú principal")
     print ("*. Seleccionar página")
     print ("<. Página anterior")
+    el_conv_2 = input("Selecciona una opción: ")
+    if el_conv_2 == ("*"):
+        selec_pag()
+    if el_conv_2 == ("<"):
+        conversación()
+    else:
+        el_conv_vacío = input ("Verás, tienes que escribir el número que corresponde a cada pregunta. Comprendes? (s/n)")
+        if el_conv_vacío == ("s"):
+            print ("Bien pues, vuelve a intentarlo")
+            time.sleep(1)
+            conversación_2()
+        if el_conv_vacío == ("n"):
+            print ("A ver... si me quieres preguntar la pregunta 1 (Hola que tal?), tiene que introducir un 1 y pulsar enter. Pruebalo ahora")
+            time.sleep(4)
+            conversación_2()
+        else:
+            print ("...")
+            time.sleep(3)
+            print ("¿Ni siquiera sabes que cuando en una frase escribo (s/n) significa que tienes que poner s (si) o n (no)?")
+            time.sleep(3)
+            print ("En fin...")
+            conversación_2()
 
 #El menú de selección de página del programa conversación
 def selec_pag():
-    el_pag = input ("Escribe el número de la página o escribe un * para volver: ")
+    el_pag = input ("\nEscribe el número de la página a la que quieres ir: ")
     if el_pag == ("1"):
         conversación()
     if el_pag == ("2"):
         conversación_2()
-    if el_pag == ("*"):
-        conversación()
     else:
         selec_pag()
 
@@ -175,39 +195,43 @@ def selec_pag():
 def calculadora():
     print ("Iniciando calculadora...")
     time.sleep(2)
-    print ("\nBienvenido a la calculadora de consola")
+    print ("\nBienvenido a la calculadora de consola [Aún no soporta decimales]")
     print ("1. Sumar")
     print ("2. Restar")
     print ("3. Multiplicar")
     print ("4. Dividir")
     print ("5. Potencia")
-    Op = input ("Selecciona una opción (1/2/3/4/5): ")
-    num1 = int(input ("Introduce el primer número: "))    
-    num2 = int(input ("Introduce el segundo número: "))
-    if Op == '1':
-        print ("La solución a ", num1, "+", num2, " es: ", add(num1, num2))
-        time.sleep(2)
+    print ("#. Menú principal")
+    Op = input ("Selecciona una opción (1/2/3/4/5/#): ")
+    if Op == ("#"):
         el_prin()
-    elif Op == '2':
-        print ("La solución a ", num1, "-", num2, " es: ", subtract(num1, num2))
-        time.sleep(2)
-        el_prin()
-            
-    elif Op == '3':
-        print ("La solución a ", num1, "x", num2, " es: ", multiply(num1, num2))
-        time.sleep(2)
-        el_prin()
-    elif Op == '4':
-        print ("La solución a ", num1, ":", num2, " es: ", divide(num1, num2))
-        time.sleep(2)
-        el_prin()
-    elif Op == '5':
-        print ("La solución de ", num1, " elevado a ", num2, " es: ", elevar(num1, num2))
-
     else:
-        print ("Hubo un problema en la operación, intentelo de nuevo (datos u opción inválidos/a)")
-        time.sleep(2)
-        el_prin()
+        num1 = int(input ("Introduce el primer número: "))    
+        num2 = int(input ("Introduce el segundo número: "))
+        if Op == '1':
+            print ("La solución a ", num1, "+", num2, " es: ", add(num1, num2))
+            time.sleep(2)
+            el_prin()
+        elif Op == '2':
+            print ("La solución a ", num1, "-", num2, " es: ", subtract(num1, num2))
+            time.sleep(2)
+            el_prin()
+            
+        elif Op == '3':
+            print ("La solución a ", num1, "x", num2, " es: ", multiply(num1, num2))
+            time.sleep(2)
+            el_prin()
+        elif Op == '4':
+            print ("La solución a ", num1, ":", num2, " es: ", divide(num1, num2))
+            time.sleep(2)
+            el_prin()
+        elif Op == '5':
+            print ("La solución de ", num1, " elevado a ", num2, " es: ", elevar(num1, num2))
+
+        else:
+            print ("Hubo un problema en la operación, intentelo de nuevo (datos u opción inválidos/a)")
+            time.sleep(2)
+            calculadora()
 
 #Todo el proceso de registro:
 def registro_nacimiento():
