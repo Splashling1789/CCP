@@ -28,3 +28,6 @@ Preguntas y respuestas:
 ¿Vas a traducirlo a otros idiomas?
   Tengo pensado en traducirlo al inglés, y no con el traductor de Google obviamente. Traducir las lineas de texto que tiene CCP no debe ser
   tan complicado, así que lanzaré unas versiónes en inglés proximamente.
+  
+No quiero instalar python y todo eso... ¿existe otra forma de probar el script?
+  Por supuesto, iré lanzando versiones en web, para que se puedan probar online, sin necesidad de instalar python
