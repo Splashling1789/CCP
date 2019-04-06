@@ -24,6 +24,7 @@ Preguntas y respuestas:
   reproducción de sonidos), y posiblemente gtts (para la voz robótica) si decido usar la api de google en vez de líneas de voz reales.
   Eso sí, si quieres ejecutarlo, usa Python 3.X (yo he usado python 3.7, pero supongo que funcionará con anteriores), no tengo muy claro si
   funciona con python 2, pero creo que no.
+
 ¿Vas a traducirlo a otros idiomas?
   Tengo pensado en traducirlo al inglés, y no con el traductor de Google obviamente. Traducir las lineas de texto que tiene CCP no debe ser
-  tan complicado, así que lanzaré unas versiónes en inglés
+  tan complicado, así que lanzaré unas versiónes en inglés proximamente
