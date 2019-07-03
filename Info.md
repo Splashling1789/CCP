@@ -1,5 +1,5 @@
 # CCP
-Un script simple para conversar de forma limitada programado en python 3
+Un script simple para conversar de forma limitada con el propio programa. Programado en python 3
 
 Soy Javier, tengo 13 años y me encanta la robótica y la programación.
 Estoy comenzando por algo tan sencillo como un script que te responde preguntas ya definidas, y que le estoy dando mucha caña ultimamente.
