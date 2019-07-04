@@ -13,8 +13,7 @@ Preguntas y respuestas:
   para personalizar las preguntas para cada rango de edad, y además de llamar al usuario por su nombre. Actualmente, en el menú de conversación tiene un total de 10 preguntas que le
   puedes preguntar. Las preguntas de CCP ya están prescritas, ya que no soy Steve Jobs ni Bill Gates, para invocar un reconocimiento de
   voz y sacarme una IA de la manga, asi que deberás de seleccionar una de las preguntas. También tiene un extra, de una calculadora de
-  5 operaciones básicas, suma, resta, multiplicación, división y potencia, las cuales solo se pueden emplear 2 números, ya que es una
-  calculadora mas sencilla que un "Hola mundo".
+ unas operaciones básicas, aunque tiene tambien algunas mas complejas como la raíz cuadrada, es una calculadora mas sencilla que un "Hola mundo".
 
 ¿Que habrá para la siguientes versiones?
   Tengo planeadas muchas cosas que se podrán ver en el archivo "Proximamente.md", iré añadiendo mas cosas sobre la marcha.
