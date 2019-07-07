@@ -15,11 +15,10 @@ Para CCP 0.6:
 ✅ Añadir una operación mas a la calculadora (Raíz cuadrada)
 ✅ 13 preguntas
 
-Para CCP 0.6.5:
+Para CCP 0.6.1:
 ❌ Añadido para poder limpiar la pantalla del script, para todos los sistemas operativos
-❌ Cambio en la estructura del código para preparar su traducción al inglés, guardando cada frase en una variable
 
-Para CCP 0.6.5 english version:
+Para CCP 0.6.1 english version:
 ❌Traducir cada una de las frases al inglés, y adaptar el formato de la fecha
 
 Para alpha CCP 1.0 [Extensiones necesarias de ahora en adelante: pygame y gtts]:
