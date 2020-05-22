@@ -16,7 +16,7 @@ Para CCP 0.6:
 ✅ 13 preguntas
 
 Para CCP 0.6.1:
-❌ Añadido para poder limpiar la pantalla del script, para todos los sistemas operativos
+✅ Añadido para poder limpiar la pantalla del script, para todos los sistemas operativos
 
 Para CCP 0.6.1 english version:
 ❌Traducir cada una de las frases al inglés, y adaptar el formato de la fecha
