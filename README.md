@@ -1,4 +1,4 @@
-# CCP
+# CCP [ONLY IN SPANISH] [Proyecto pausado]
 Un script simple para conversar de forma limitada con el propio programa. Programado en python 3
 
 La primera versión de esta "consola de conversación primitiva" tiene como nombre CCP alpha 0.5, y tiene 300 líneas de código.
