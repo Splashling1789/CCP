@@ -4,7 +4,7 @@ Un script simple para conversar de forma limitada con el propio programa. Progra
 La primera versión de esta "consola de conversación primitiva" tiene como nombre CCP alpha 0.5, y tiene 300 líneas de código.
 Mi objetivo con este script es aprender a realizar historias con scripts, que se desarrollen de forma aleatoria según las preferencias del usuario, ya que es lo que mas facil me resulta, y lo veo como algo gracioso que no se ve muy a menudo.
 
-FAQ:
+# FAQ:
 ¿Cuales son la características principales del script?
   CCP puede registrar tu nombre y fecha de nacimiento, para que (en un futuro) pueda determinar si eres mayor o menor de ciertas edades,
   para personalizar las preguntas para cada rango de edad, y además de llamar al usuario por su nombre. Actualmente, en el menú de conversación tiene un total de 10 preguntas que le
